@@ -1,0 +1,187 @@
+@media only screen and (max-width: 1280px) {
+/*=========================Main Box Responsive Image Section=================================*/
+	#box-image1 {
+		width: 35%;
+	}
+/*=========================Box5 Responsive Input Section=====================================*/
+	#input-text input[type] {
+		padding: 1.5% 5% 1% 5%;
+	}
+	#btn {
+		padding: 1% 11% 1% 11%;
+		margin-left: 36%;
+	}
+}
+@media only screen and (min-width: 1240px) and (max-width: 1280px) {
+/*=========================Box5 Responsive Input Section=====================================*/
+	#input-text input[type] {
+    	padding: 1.5% 4.5% 1% 4.5%;
+	}
+	#btn {
+    	padding: 1% 12% 1% 11%;
+    	margin-left: 35.2%;
+	}
+/*=========================Box7 Responsive Image Width Section=====================================*/
+	#profile-photo {
+		width: 115px;
+    	height: 115px;
+	}
+/*=========================Box8 Responsive Right Side Address Section=====================================*/
+	#address {
+		padding: 8% 10% 8% 9%;
+	}
+}
+@media only screen and (min-width: 1120px) and (max-width: 1239px) {
+	#mltr {
+    	margin: 0% 12% 0% 12%;
+	}
+/*=========================Box2 Image and contend Section=====================================*/
+	#box-image2 {
+	    padding-top: 10%;
+	}
+	#box-contend2 h2 {
+		line-height: 1.5;
+	}
+	#box-contend2 p {
+		line-height: 2;
+   		padding: 1% 0 1% 0%;
+	}
+	#box-contend2 span {
+	    line-height: 2.3;
+	}
+/*=========================Main Box Responsive Image Section=================================*/
+	#box-image1 {
+		width: 38%;
+	}
+/*=========================Box8 Responsive Right Side Address Section=====================================*/
+	#address {
+		padding: 8% 7% 8% 7%;
+	}
+	.contactus-contend button {
+	    margin-top: 3%
+	}
+	#input-text {
+		margin: 10% 0% 7% 0%;
+	}
+	#btn {
+		margin-bottom: 7%;
+	}
+}
+@media only screen and (min-width: 1080px) and (max-width: 1120px) {
+	#mltr {
+		margin: 0 12%;
+	}
+	#box-contend2 h2 {
+		line-height: 1.5;
+	}
+	#box-contend2 p {
+	    padding: 1% 0 1% 0%;
+	}
+	#box-contend3 h3 {
+		padding: 1% 0% 5% 0%;
+		line-height: 2;
+	}
+	#address {
+		padding: 8% 5% 8% 8%;
+	}
+	.margin-left-right8 {
+		margin-left: 8%;
+	}
+}
+@media only screen and (min-width: 1020px) and (max-width: 1079px) {
+	#mltr {
+		margin: 0 12%;
+	}
+	#box-image2 {
+		width: 33%;
+	}
+	#box-contend2 h2 {
+		line-height: 1.5;
+	}
+	#box-contend2 p {
+	    padding: 1% 0 1% 0%;
+	}
+	#box-contend3 h3 {
+		padding: 1% 0% 5% 0%;
+		line-height: 2;
+		font-weight: 100;
+	}
+	#box-image1 {
+    	width: 37%;
+	}
+	#address {
+    	padding: 8% 4% 8% 5%;
+	}
+	.margin-left-right8 {
+		margin-left: 8%;
+	}
+	#input-text input[type] {
+    	padding: 1.5% 4% 1% 4%;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1019px) {
+	#mltr {
+    	margin: 0 10%;
+	}
+	.contactus-contend input[type] {
+		padding-right: 57%;
+	}
+	#input-text {
+    	margin: 10% 0% 7% 0%;
+	}
+	#btn {
+       	margin-left: 35%;
+    	margin-bottom: 5%;
+	}
+	#box-image2 {
+		width: 33%;
+	}
+	#box-contend2 h2 {
+		line-height: 1.5;
+	}
+	#box-contend2 p {
+	    padding: 1% 0 1% 0%;
+	}
+	#box-contend3 h3 {
+		padding: 1% 0% 5% 0%;
+		line-height: 2;
+		font-weight: 100;
+	}
+	#box-image1 {
+    	width: 37%;
+	}
+	#address {
+    	padding: 8% 4% 8% 5%;
+	}
+	.margin-left-right8 {
+		margin-left: 8%;
+	}
+	#input-text input[type] {
+    	padding: 1.5% 4% 1% 4%;
+	}
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

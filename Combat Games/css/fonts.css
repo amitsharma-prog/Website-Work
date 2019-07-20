@@ -1,0 +1,104 @@
+@font-face{
+	font-family: "Abel-Regular";
+	src: url("../fonts/Abel-Regular.ttf");
+}
+@font-face{
+	font-family: "BlackOpsOne-Regular";
+	src: url("../fonts/BlackOpsOne-Regular.ttf");
+}
+@font-face{
+	font-family: "Unlock-Regular";
+	src: url("../fonts/Unlock-Regular.ttf");
+}
+
+/* header */
+#menu a {
+	font-family: "Abel-Regular";
+	font-size: 20px;
+}
+#header-contend h1 {
+	font-family: "BlackOpsOne-Regular";
+	font-size: 4em;
+	font-weight: 100;
+}
+#header-contend h2{
+	font-family: "Abel-Regular";
+	font-weight: 100;
+	font-size: 2em;
+}
+#header-contend p {
+	font-family: "Abel-Regular";
+	font-size: 20px;
+}
+
+/* box1 */
+
+#b1-contend h1 {
+	font-family: "Abel-Regular";
+    font-size: 40px;
+    color: #333333;
+}
+#b1-contend p {
+	font-family: "Abel-Regular";
+    font-size: 18px;
+}
+#b1-image h2 {
+	font-family: "Abel-Regular";
+}
+#b1-image p {
+	font-family: "Abel-Regular";
+	font-size: 18px;
+	text-align: center;
+}
+	 
+/* box2 */
+#b2-contend h2 {
+	font-family: "Abel-Regular";
+	font-size: 38px;
+	font-weight: 100;
+}
+#b2-icon-box h2 {
+	font-family: "Abel-Regular";
+	font-weight: 100;
+}
+#b2-icon-box h1, h3 {
+	font-family: "Abel-Regular";
+	font-weight: 100;
+}
+#b2-icon-box h1, h3 {
+	font-family: "Abel-Regular";
+	font-weight: 100;
+}
+
+/* box3 */
+#b3-h {
+	font-family: "Abel-Regular";
+}
+#connection-info {
+	font-family: "Abel-Regular";
+}
+#connection-info h1 {
+	font-weight: 100;
+}
+#Video {
+	font-family: "Abel-Regular";
+}
+
+/* box4 */
+
+.t-m {
+	font-family: "Abel-Regular";
+}
+
+/* footer */
+
+#f-contact {
+	font-family: "Abel-Regular";
+}
+#f-contact h1 {
+	font-family: "BlackOpsOne-Regular";
+	font-weight: 100;
+}
+#h5 {
+	font-weight: 100;
+}

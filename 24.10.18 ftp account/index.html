@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box {
+	width: 32%;
+	float: left;
+	box-shadow: 0px 0px 10px 5px #ddd;
+}
+.box img { width: 100%; margin-bottom: -4px; }
+.box:nth-child(2) {
+	margin-left: 2%;
+    margin-right: 2%;
+}
+.box-text {
+	background: rebeccapurple;
+	padding: 4% 0 4% 0;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.box-text:hover {
+	background-color: blanchedalmond;
+	color: #000;
+}
+.box-text span {
+	font-size: 2em;
+}
+@media only screen and (max-width: 460px) {
+	.box { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="box">
+	<img src="img/web.jpg" alt="img/web.jpg" />
+	<a href="webdesign.html" class="box-text">
+		<span>See my work</span>
+	</a>
+</div>
+<div class="box">
+	<img src="img/graphics.jpg" alt="img/graphics.jpg" />
+	<a href=""  class="box-text">
+		<span>Graphics Work</span>
+	</a>
+</div>
+<div class="box">
+	<img src="img/webDevlopment.png" alt="img/webDevlopment.png" />
+	<a href="" class="box-text">
+		<span>See my work</span>
+	</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,781 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@font-face{
+	font-family: "calibril";
+	src: url("../fonts/calibril.ttf");
+}
+@font-face{
+	font-family: "comicbd";
+	src: url("../fonts/comicbd.ttf");
+}
+/*=================================================
+ Header
+ *===============================================*/
+.mltr {
+	margin: 0 10%;
+}
+#header-image {
+    background-image: url(../images/1.jpg);
+    height: 780px;
+    background-size: cover;
+    background-position-y: 47%;
+    position: relative;
+    background-attachment: fixed;
+}
+#strip {
+    background-color: #00000078;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+#chk {
+	display: none;
+}
+#bars {
+    float: right;
+    font-size: 30px;
+    display: none;
+    color: white;
+    font-weight: 100;
+    border: 1px solid white;
+    width: 60px;
+    height: 45px;
+    padding-top: 7px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 12px;
+}
+#menu2 {
+    line-height: 70px;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    background: green;
+    text-align: center;
+    left: -100%;
+    width: 100%;
+    top: 100%;
+    z-index: 1;
+    /*display: none;*/
+	transition: all 1.30s;
+}
+#menu2 a:hover {
+	color: white;
+	background: black;
+}
+#menu2 a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+	display: block;
+}
+#menu {
+    line-height: 70px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+#menu a:hover {
+	    padding: 19px;
+    border: 2px dashed darkorange;
+}
+#menu a:nth-child(1) {
+	padding: 19px;
+	border: 2px dashed orange;
+}
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+}
+#header-contend {
+	color: #fff;
+	font-family: "comicbd";
+	text-align: center;
+	font-size: 35px;
+    padding-top: 4%;
+}
+#header-contend span {
+    font-family: "calibril";
+    padding-top: 15px;
+    display: -webkit-inline-box;
+}
+#header-contend h1 {
+	padding-bottom: 13%;
+}
+#header-contend #arrow img:nth-child(1) {
+float: left;margin-left: 10%;
+}
+#header-contend #arrow img:nth-child(2) {
+float: right;
+margin-right: 10%;
+}
+#h2 {
+	width: 30%;
+    margin-left: 35%;
+    border: none;
+    border-bottom: 1px #ffffff75 solid;
+    padding: 5px;
+}
+#arrow {
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+}
+
+/*==================================================
+row-1
+ *================================================*/
+
+#b1 {
+	width: 60%;
+	float: left;
+	position: relative;
+}
+.contend hr {
+	width: 30%;
+    margin-left: 35%;
+    border: none;
+    border-bottom: 1px #ffffff75 solid;
+    padding: 5px;
+}
+.contend span {
+	font-family: "calibril";
+	padding-top: 10px;
+    display: block;
+}
+.contend hr {
+	transition: .30s;
+}
+.contend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #549b9ebf;
+    height: 377px;
+    color: #fff;
+    font-family: "comicbd";
+    font-size: 29px;
+    padding-top: 15%;
+    text-align: center;
+    transition: 1s;
+}
+#b2 .contend {
+	background: #36375ac7;
+    padding-top: 23%;
+}
+#b3 .contend {
+	background: #1a2746a8;
+    padding-top: 23%;
+}
+#b4 .contend {
+	background: #6495c88a;
+}
+#b5 .contend {
+	background: #338392ba;
+}
+#b6 .contend {
+	background: #011f3e9c;
+    padding-top: 23%;
+}
+#b1 img {
+ 	width: 100%;
+ 	height: 377px;
+	margin-bottom: -4px;
+}
+#b2 {
+	width: 40%;
+	float: right;
+	position: relative;
+}
+#b2 img {
+ 	width: 100%;
+	margin-bottom: -4px;
+}
+#b3 {
+	width: 40%;
+	float: left;
+	position: relative;
+}
+#b3 img {
+ 	width: 100%;
+ 	margin-bottom: -4px;
+}
+#b4 {
+	width: 60%;
+	float: right;
+	position: relative;
+}
+#b4 img {
+ 	width: 100%;
+ 	margin-bottom: -4px;
+ 	height: 377px;
+}
+#b5 {
+	width: 60%;
+	float: left;
+	position: relative;
+}
+#b5 img {
+ 	width: 100%;
+ 	height: 377px;
+	margin-bottom: -4px;
+}
+#b6 {
+	width: 40%;
+	float: right;
+	position: relative;
+}
+#b6 img {
+ 	width: 100%;
+ 	margin-bottom: -4px;
+ 	height: 377px;
+}
+/*================================================
+ Hover Effects
+ *==============================================*/
+.contend:hover hr {
+    width: 50%;
+    margin-left: 24%;
+}
+#b2 .contend:hover {
+	background: #36375a21;
+}
+.contend:hover { background: none; }
+#b3 .contend:hover { background: none; }
+#b4 .contend:hover { background: none; }
+#b5 .contend:hover { background: none; }
+#b6 .contend:hover { background: none; }
+
+/*================================================
+ row2
+ *==============================================*/
+#row-2 {
+	clear: both;
+}
+#row-2 .mltr {
+	margin: 0 7%;
+}
+#row-2 .mltr #a-image {
+	float: left;
+	width: 60%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	font-family: "comicbd";
+}
+#row-2 .mltr #a-image img {
+	width: 100%;
+	margin-bottom: -4px;
+}
+#row-2 .mltr #a-contend h1 {
+	font-family: "comicbd";
+	font-size: 27px;
+}
+#row-2 .mltr #a-contend {
+	float: right;
+	width: 40%;
+	padding-left: 3%;
+	line-height: 1.7;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	font-family: "calibril";
+}
+
+/*===================================================
+ row3
+ *=================================================*/
+#row-3 {
+	clear: both;
+}
+#bg-color {
+	background-color: #4c6e90;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+#row-3 #bg-color .mltr {
+	margin: 0 7%;
+}
+#g-heading {
+    padding: 5% 0;
+    color: white;
+    font-size: larger;
+    font-family: "comicbd";
+}
+#g-box1 {
+float: left;
+width: 50%;
+}
+#g-box2 {
+float: right;
+width: 50%;
+}
+#g-box1-image-1 {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.snap2 {
+	width: 50%;
+	float: right;
+	overflow: hidden;
+	position: relative;
+	height: 350px;
+}
+.snap {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	height: 350px;
+}
+.snap img {
+	width: 100%
+	margin-bottom-4px;
+}
+.shot {
+    background-color: rgba(0, 0, 0, 0.7411764705882353);
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 97%;
+    height: 350px;
+    transition: all .30s;
+}
+.shot h3 {
+    color: white;
+    font-family: "calibril";
+    transform: translate(22%, 314%);
+    font-size: 40px;
+    font-weight: 100;
+}
+#g-box1-image-1 img { 
+	width: 100%;
+	margin-bottom: -4px; 
+}
+#g-box2-image-2 img { 
+	width: 100%;
+	margin-bottom: -4px;
+}
+#g-box2-image-2 {
+    position: relative;
+    width: 98.5%;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 1px;
+    overflow: hidden;
+}
+.snap-shot {
+	background-color: rgba(0, 0, 0, 0.7411764705882353);
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	height: 400px;
+	transition: all .30s;
+
+
+
+}
+.snap-shot h2 {
+	color: white;
+	font-family: "calibril";
+    transform: translate(33%, 265%);
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+/*============================================
+ Snap Shot
+ *=========================================*/
+#g-box1-image-1:hover .snap-shot {
+	top: 0%;
+}
+#g-box2-image-2:hover .snap-shot {
+	top: 0%;
+}
+.snap:hover .shot {
+	top: 0%;
+}
+.snap2:hover .shot {
+	top: 0%;
+}
+/*==================================================
+ row4
+ *================================================*/
+#row-4 {}
+#bg-image {
+	background-image: url(../images/6.jpg);
+	height: 350px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#bg-color2 {
+	background-color: #000000ba;
+	height: 350px;
+}
+#row-4 #bg-image .mltr { margin: 0 20%; }
+#row4-contend {
+	text-align: center;
+	color: white;
+	padding-top: 7%;
+	font-family: "comicbd"
+}
+#row4-contend h1 { font-size: 35px; }
+#row4-contend p {
+	padding: 4% 0 3% 0;
+    font-size: 18px;
+    font-family: "calibril";
+    line-height: 1.5;
+}
+button {
+    padding: 10px 20px;
+    background: #00bcd4;
+    border: 1px white solid;
+    color: white;
+}
+
+/*===================================================
+ row5
+ *=================================================*/
+#row-5 {}
+.mltr {}
+.row5-box1 {
+	padding-top: 8%;
+}
+.row5-heading {
+	padding-bottom: 3%;
+	font-family: "comicbd";
+	font-size: 20px;
+}
+.profile-box {
+	float: left;
+	width: 30%;
+    margin: 0 17px;
+    padding-bottom: 8%;
+    position: relative;
+    padding-top: 10%;
+
+}
+.profile-images {
+	width: 35%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.profile-images img {
+	width: 100%;
+	border-radius: 60px;
+}
+.profile-contend {
+	line-height: 1.5;
+	padding-top: 4%;
+}
+.profile-contend p {
+	font-family: "calibril";
+	color: darkgray;
+}
+.profile-contend h2 {
+	font-family: "comicbd";
+	color: #00bcd8;
+}
+.icon {
+    padding-top: 5%;
+}
+#i1, #i2, #i3, #i4 {
+	background-image: url(../images/img-sprite.png);
+	width: 50px;
+	height: 50px;
+	float: left;
+	overflow: hidden;
+
+}
+#i1 { background-position-y: 50px; }
+#i2 {
+	background-position-y: 50px;
+	background-position-x: -50px;
+}
+#i3 {
+	background-position-y: 150px;
+	background-position-x: -100px;
+} 
+#i4 {
+    background-position-x: 150px;
+    background-position-y: 150px;
+}
+/*===================================================
+Hover Effect
+*==================================================*/
+.profile-box:hover .profile-images {
+	width: 38%;
+	border-radius: 100px;
+}
+/*===================================================
+ row6
+ *=================================================*/
+#row-6 {
+	clear: both;
+}
+#bg-color3 {
+	background-color: #124042;
+	height: 420px;
+}
+.mltr {}
+form {
+	width: 60%;
+	padding-top: 5%;
+	float: left;
+}
+form input[type="text"] {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 93px;
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+form input[type="email"] {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 93px;
+	background: none;
+	border: 1px solid white;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+textarea {
+    padding: 40px 317px 40px 10px;
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: gray;
+}
+#btn {
+	margin-left: 10px;
+    padding: 15px 30px;
+    background: #00bcd4;
+    color: white;
+    border: transparent;
+}
+.us {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+    padding-top: 9%;
+    padding-left: 30%;
+    position: relative;
+}
+.us i {
+	color: #00bcd4;
+    position: absolute;
+    left: 83px;
+    top: 35%;
+    font-size: 25px;
+}
+.us h2 {
+	color: white;
+	font-family: "comicbd";
+}
+.us span {
+	font-family: "calibril";
+	color: white;
+}
+#social-media {
+	float: right;
+	width: 40%;
+}
+.us {
+    width: 564px;
+    height: 140px;
+}
+/*==================================================
+ Row7 
+ *================================================*/
+#row-7 {
+	clear: both;
+}
+#bg-image2 {
+	background-image: url(../images/4.jpg);
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#row7-heading {
+	text-align: center;
+	color: white;
+	font-family: "comicbd";
+	padding-top: 7%;
+}
+#form2 {
+    margin-left: 24%;
+    padding-top: 5%;
+}
+#form2 input[type="email"] {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 90px;
+	background: white;
+	border: 1px solid white;
+	margin-right: 2%;
+}
+input[type="submit"] {
+    padding: 15px 50px;
+    background: #e8870b;
+    border: 1px white solid;
+    color: white;
+}
+
+/*=================================================
+ footer
+ *===============================================*/
+footer {}
+#bg-color4 {
+	background-color: black;
+	height: 150px;
+}
+#social-icon {
+	display: inline-block;
+    margin-left: 40%;
+    padding-top: 2.5%;
+}
+#copyright {
+	color: white;
+	font-family: "calibril";
+	text-align: center;
+}
+#copyright h3 {
+	font-weight: 100;
+}
+
+/*===================================================
+ Responsive @media coding
+ *=================================================*/
+ @media only screen and (max-width: 720px ) {
+ 	#menu a {
+ 		display: none;
+ 	}
+ 	#bars {
+ 		display: block;
+ 		cursor: pointer;
+ 	}
+ 	#menu2 {
+ 		/*display: block;*/
+ 	}
+ 	#chk:checked ~ #menu2 {
+ 		/*z-index: 1;*/
+ 		left: 0%
+ 	}
+ 	/*======================================================
+ 	 row1
+ 	 *==================================================*/
+ 	 #b1 {
+ 	 	width: 100%;
+ 	 }
+ 	 #b1 .contend {
+ 	 	height: 377px;
+ 	 }
+ 	 #b2 {
+ 	 	width: 100%;
+ 	 }
+ 	 .contend {
+ 	 	height: 505px;
+ 	 }
+ 	 #b3 {
+ 	 	width: 100%;
+ 	 }
+ 	 #b4 {
+ 	 	width: 100%;
+ 	 }
+ 	 #b5 {
+ 	 	width: 100%;
+ 	 }
+ 	 #b5 .contend {
+ 	 	height: 377px;
+ 	 }
+	 #b6 {
+	 	width: 100%;
+	 }
+ 	 #b6 .contend {
+ 	 	height: 377px;
+ 	 }
+/*=========================================================
+ row2
+ *======================================================*/
+ 	#row-2 .mltr #a-image { width: 100% }
+ 	#row-2 .mltr #a-contend { width: 100%; padding-top: 0; padding-left: 0; }
+
+
+/*=========================================================
+ row3
+ *======================================================*/
+ 	#g-box1 { width: 100%; padding-bottom: 1%; }
+ 	.snap-shot { height: 429px; }
+ 	.snap { width: 45%; }
+ 	.snap:nth-child(2) { margin-left: 8.8%; }
+ 	.shot { width: 100% }
+ 	.snap2 { width: 45%; margin-right: 9px;}
+ 	.snap2:nth-child(2) { float: left; }
+ 	#g-box2 { width: 100%; float: none; } { width: 50%; padding-top: 15%; }
+/*=========================================================
+ row5
+ *======================================================*/
+ 	.profile-box { width: 44%; padding-top: 15%; }
+
+/*=========================================================
+ row6
+ *======================================================*/
+ 	form { padding-top: 7.8%; }
+ 	form input[type="text"] {
+ 		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 108px;
+ 		color: white;
+ 	}
+	form input[type="email"] {
+ 		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 108px;
+
+ 		color: white;
+ 	}
+ 	textarea {
+ 		padding: 20px 88px 20px 10px;
+ 		color: white;
+ 	}
+
+ 	.us {
+ 		width: 302px;
+ 		padding-top: 17%;
+ 		padding-left: 42%;
+ 	}
+ 	.us i {
+ 		left: 53px;
+ 	}
+
+/*=========================================================
+ row7
+ *======================================================*/
+ #row7-heading {
+ 	font-size: 25px;
+ }
+ #form2 {
+ 	margin-left: 11%;
+ }
+ /*=========================================================
+ footer
+ *======================================================*/
+ 	#social-icon {
+    margin-left: 35%;
+    padding-top: 5.5%;
+ }
+}
